@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  padding: 10px;
+  color: white;
 }
 
 .App-logo {
@@ -22,6 +23,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+::-webkit-scrollbar{
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-track{
+  background-color:transparent ;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(91, 192, 222);
+  border-radius: 100px;
 }
 
 .App-link {
