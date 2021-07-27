@@ -9,7 +9,7 @@ function App() {
 
   });
   function backk(){
-    window.location.href="https://blackcollateral.com/";
+    window.location.href="https://blackstaking.vercel.app/";
   }
   return (
     <div className="App ">
